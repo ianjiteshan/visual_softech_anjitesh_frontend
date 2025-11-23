@@ -1,0 +1,30 @@
+/* style.css */
+body {
+    padding-top: 56px; /* Space for fixed navbar */
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+/* Custom styles for the dynamic subject table */
+#subjectsTable input.form-control {
+    border: none;
+    padding: 0;
+    height: auto;
+    box-shadow: none;
+}
+
+#subjectsTable td {
+    vertical-align: middle;
+}
+
+/* Style for the login page card */
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
